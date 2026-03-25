@@ -1,0 +1,18 @@
+import React from "react";
+
+const Login = () => {
+  return (
+   <div className="flex items-center justify-center h-screen bg-gradient-to-b from-white to-[#C9FCE9]">
+        <div className="w-full max-w-md p-8 space-y-6 bg-white rounded shadow">
+            <div>
+                <img src="/logo.png" alt="pulse logo" className="h-16" />
+                <h2 className="font-bold text-2xl">PulseTech Admin Dashboard</h2>
+                <p className="text-gray-600">Hello! Welcome back👋</p>
+            </div>
+
+        </div>
+    </div>
+  );
+}
+
+export default Login;

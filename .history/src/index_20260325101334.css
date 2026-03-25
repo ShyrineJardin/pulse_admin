@@ -1,0 +1,8 @@
+impo
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: poppins, sans-serif;
+}
